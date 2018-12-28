@@ -6,8 +6,21 @@
     <title>Client page</title>
 </head>
 <body>
-    <h1>Client page</h1>
-
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-danger">
+        <h3 id="status" class="w-100">not connected</h3>
+        <input id="name" class="form-control" type="text" placeholder="nickname"/>
+        <button class="btn btn-danger m-2" id="connect" onclick="send()">Connect</button>
+    </nav>
+    <div id="question_input">
+        <form>
+            <h2>Enter the question result</h2>
+            <input type="text" class="form-control" id="answer" placeholder="answer"/>
+            <button class="btn btn-danger m-2" id="submit" type="button" onclick="sendAnswer()">Submit</button>
+        </form>
+    </div>
+    <div id="content">
+        <!-- will be injected -->
+    </div>
     <script src="client.js"></script>
 </body>
 </html>
