@@ -1,0 +1,25 @@
+{
+  "name": "quiz-answers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nexylmao/quiz-answers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nexylmao/quiz-answers/issues"
+  },
+  "homepage": "https://github.com/nexylmao/quiz-answers#readme",
+  "dependencies": {
+    "chance": "^1.0.18",
+    "express": "^4.16.4",
+    "http": "0.0.0",
+    "ws": "^6.1.2"
+  }
+}
